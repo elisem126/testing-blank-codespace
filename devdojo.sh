@@ -6,12 +6,9 @@ echo "Hello there" $1
 
 # $1 : first parameter
 
-echo "Hello there" $2
 
-# $2 : second parameter
+read -p "What is your name?" name 
 
-echo "Hello there" $@
-
-# $@ : all
-
+echo "Hi there $name"
+echo "Have a great wednesday night"
 
