@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#!/bin/bash
+name=$1
 
-letters=( "A""B""C""D""E" ) 
-b=${letters:3}
-echo "${b}"
-
+if [[ ${name} == "Paka" ]] 
+then
+echo $name
+fi
